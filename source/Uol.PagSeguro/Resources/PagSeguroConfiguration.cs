@@ -27,7 +27,7 @@ namespace Uol.PagSeguro.Resources
     /// </summary>
     public static class PagSeguroConfiguration
     {
-        private string urlXmlConfiguration = ".../.../Configuration/PagSeguroConfig.xml";
+        private static string urlXmlConfiguration = ".../.../Configuration/PagSeguroConfig.xml";
 
         private static string _moduleVersion;
         private static string _cmsVersion;
